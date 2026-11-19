@@ -1,0 +1,131 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_corporate_entity",
+ "create_time": "2026-09-16T15:09:41Z",
+ "created_by": "admin",
+ "dates_of_existence": [],
+ "display_name": {
+  "authorized": true,
+  "conference_meeting": false,
+  "create_time": "2026-09-16T15:15:06Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_corporate_entity",
+  "jurisdiction": false,
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "primary_name": "Administrative Services Office",
+  "sort_name": "Administrative Services Office",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:15:06Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:15:06Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_corporate_entity",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 6,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "conference_meeting": false,
+   "create_time": "2026-09-16T15:15:06Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_corporate_entity",
+   "jurisdiction": false,
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "primary_name": "Administrative Services Office",
+   "sort_name": "Administrative Services Office",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:15:06Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:15:06Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Historical Note",
+   "persistent_id": "bba1e2bbd861021a0ec15ff6466e64e7",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "System Human Resource Services is dedicated to supporting the U of I System's mission of teaching, research, public service, and economic development through a variety of strategic programs and partnerships to recruit, develop, and retain a diverse workforce of the highest caliber.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "0e0fca6340c568408032e4b8cdc520b8",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 312",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of the Chancellor"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+    "uri": "/agents/corporate_entities/1539"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1539",
+   "relator": "is_subordinate_to",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "Administrative Services Office",
+ "uri": "/agents/corporate_entities/1338",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/7"
+ ],
+ "used_within_repositories": [
+  "/repositories/7"
+ ],
+ "user_mtime": "2026-09-16T15:15:06Z"
+}

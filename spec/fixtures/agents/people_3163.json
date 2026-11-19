@@ -1,0 +1,170 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_genders": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_person",
+ "create_time": "2026-09-16T15:09:00Z",
+ "created_by": "admin",
+ "dates_of_existence": [
+  {
+   "create_time": "2026-09-18T21:48:19Z",
+   "date_label": "existence",
+   "date_type_structured": "single",
+   "jsonmodel_type": "structured_date_label",
+   "lock_version": 0,
+   "structured_date_single": {
+    "create_time": "2026-09-18T21:48:19Z",
+    "date_expression": "1952-",
+    "date_role": "begin",
+    "date_standardized": "1952",
+    "date_standardized_type": "standard",
+    "jsonmodel_type": "structured_date_single",
+    "lock_version": 0,
+    "system_mtime": "2026-09-18T21:48:19Z",
+    "user_mtime": "2026-09-18T21:48:19Z"
+   },
+   "system_mtime": "2026-09-18T21:48:19Z",
+   "user_mtime": "2026-09-18T21:48:19Z"
+  }
+ ],
+ "display_name": {
+  "authorized": true,
+  "create_time": "2026-09-16T15:14:58Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_person",
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "name_order": "direct",
+  "parallel_names": [],
+  "primary_name": "Kliger, Elizabeth \"Lisa\"",
+  "sort_name": "Kliger, Elizabeth \"Lisa\"",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:14:58Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:14:58Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_person",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 6,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "create_time": "2026-09-16T15:14:58Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_person",
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "name_order": "direct",
+   "parallel_names": [],
+   "primary_name": "Kliger, Elizabeth \"Lisa\"",
+   "sort_name": "Kliger, Elizabeth \"Lisa\"",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:14:58Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:14:58Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Biographical Note",
+   "persistent_id": "e5ad195b3085b9e9667dd33f7a74aaf2",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "<emph render='bold'>Elizabeth \u201cLisa\u201d Kliger (1952- )</emph> was born in Evanston, Illinois in 1952 to musically-inclined parents. In 1970, she began an undergraduate degree in Independent Studies in Folk Music at the University of Illinois Urbana-Champaign, graduating in 1974. While an undergraduate student, she learned the banjo and sang original songs at the Red Herring Coffee House. In 1975 she became a freelance folklorist for Rounder Records while in Arecibo, Puerto Rico. The following year she returned to the University of Illinois Urbana-Champaign for her Masters in Teaching English as a Second Language, which she completed in 1978.\n\tFollowing her graduate studies, Kliger moved to Southern Thailand and was stationed as a Peace Corps volunteer in Songkhla. She taught university level English to Thai English teachers at Srinakharinwirot University, often incorporating her banjo into her teaching. At the end of her service, she married her longtime boyfriend Bruce Barnes and moved to Singapore in 1980. Here, she worked as a freelance writer and became an in-house editor and writer of children\u2019s books and educational materials for FEP International Private Ltd (formerly McGraw-Hill).\n\tIn 1986 she moved to Hilo, Hawaii for her husband\u2019s job at the Mauna Kea Observatory. She began attending the University of Hawaii to study music and theater. But only two years later, the couple moved to New Mexico for her husband\u2019s residence at the National Solar Observatory site. Kliger began working as a freelance editor for several major publishing houses including Random House, Crown, Viking, and Penguin. In 1989, she also began attending Denver Publishing Institute.\n\tKliger moved to Ellensburg, Washington and continued her freelance publishing work while attending Central Washington University for musical education. At Central Washington University she began writing the musical <emph render='italic'>Noodlehead! Noodlehead! </emph>is based on both the Russian poem \u201cThe Little Humpbacked Horse\" and Lisa\u2019s poem \u201cPetya Noodlehead and the Pony of Light.\u201d The hero of \u201cThe Little Humpbacked Horse\" reminded her of her Ukrainian grandfather and inspired her own works. From 1996 to 2011 she had a variety of jobs working as an archivist, cataloger, and editor. In the most recent decade she has written for her community in Moscow, Idaho, where she composes poetry and letters to the editor.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "1d64498112d6014350d8ea2c538377d2",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 3574",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Kliger, Paul I."
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Kliger, Paul I.",
+    "uri": "/agents/people/3053"
+   },
+   "create_time": "2026-09-16 15:14:58 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_parentchild",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/3053",
+   "relator": "is_child_of",
+   "system_mtime": "2026-09-16 15:14:58 UTC",
+   "user_mtime": "2026-09-16 15:14:58 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Kliger, Edna Ruth"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Kliger, Edna Ruth",
+    "uri": "/agents/people/3227"
+   },
+   "create_time": "2026-09-16 15:15:02 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_parentchild",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/3227",
+   "relator": "is_child_of",
+   "system_mtime": "2026-09-16 15:15:02 UTC",
+   "user_mtime": "2026-09-16 15:15:02 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "Kliger, Elizabeth \"Lisa\"",
+ "uri": "/agents/people/3163",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/8"
+ ],
+ "used_within_repositories": [
+  "/repositories/8"
+ ],
+ "user_mtime": "2026-09-16T15:14:58Z"
+}

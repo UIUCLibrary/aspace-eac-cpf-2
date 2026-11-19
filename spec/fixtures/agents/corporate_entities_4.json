@@ -1,0 +1,119 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_corporate_entity",
+ "create_time": "2026-09-15T17:10:19Z",
+ "created_by": "admin",
+ "dates_of_existence": [],
+ "display_name": {
+  "authorized": true,
+  "conference_meeting": false,
+  "create_time": "2026-09-15T17:10:19Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_corporate_entity",
+  "jurisdiction": false,
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "primary_name": "Sustainability Round Table",
+  "sort_name": "Sustainability Round Table",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-15T17:10:19Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-15T17:10:19Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_corporate_entity",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 4,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "conference_meeting": false,
+   "create_time": "2026-09-15T17:10:19Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_corporate_entity",
+   "jurisdiction": false,
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "primary_name": "Sustainability Round Table",
+   "sort_name": "Sustainability Round Table",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-15T17:10:19Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-15T17:10:19Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Historical Note",
+   "persistent_id": "e0bcf9d41fff45e2d58a49617894c661",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "The Sustainability Round Table provides a professional forum to exchange ideas and opportunities regarding sustainability and resources for the library community to support sustainability. The round table originated from the Social Responsibilities Round Table's Task Force on the Environment. In 2013, the task force was approved as a round table. It's first meeting was at the 2013 Annual Conference and officers were elected in March 2014.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    },
+    {
+     "content": [
+      "1. \"Rules: Sustainability Round Table,\" April 2026, https://hdl.handle.net/11213/24267.\n\t2. \"About SustainRT,\" American Library Association, https://www.ala.org/sustainrt/about-sustainrt."
+     ],
+     "jsonmodel_type": "note_citation",
+     "persistent_id": "b1d38de454ac3347bee018bf7a147ded",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "42773fbaa98f6b6aa890babba090a4c8",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "ALA Archon Instance::Creator Record ID 4216",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "Sustainability Round Table",
+ "uri": "/agents/corporate_entities/4",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/2"
+ ],
+ "used_within_repositories": [
+  "/repositories/2"
+ ],
+ "user_mtime": "2026-09-15T17:10:19Z"
+}

@@ -1,0 +1,117 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_family",
+ "create_time": "2026-09-15T20:14:42Z",
+ "created_by": "admin",
+ "dates_of_existence": [
+  {
+   "create_time": "2026-09-18T21:48:13Z",
+   "date_label": "existence",
+   "date_type_structured": "range",
+   "jsonmodel_type": "structured_date_label",
+   "lock_version": 0,
+   "structured_date_range": {
+    "begin_date_expression": "1815",
+    "begin_date_standardized": "1815",
+    "begin_date_standardized_type": "standard",
+    "create_time": "2026-09-18T21:48:13Z",
+    "end_date_expression": "1983",
+    "end_date_standardized": "1983",
+    "end_date_standardized_type": "standard",
+    "jsonmodel_type": "structured_date_range",
+    "lock_version": 0,
+    "system_mtime": "2026-09-18T21:48:13Z",
+    "user_mtime": "2026-09-18T21:48:13Z"
+   },
+   "system_mtime": "2026-09-18T21:48:13Z",
+   "user_mtime": "2026-09-18T21:48:13Z"
+  }
+ ],
+ "display_name": {
+  "authorized": true,
+  "create_time": "2026-09-15T20:14:42Z",
+  "created_by": "admin",
+  "family_name": "Davis Family",
+  "is_display_name": true,
+  "jsonmodel_type": "name_family",
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "sort_name": "Davis Family",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-15T20:14:42Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-15T20:14:42Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_family",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 1,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "create_time": "2026-09-15T20:14:42Z",
+   "created_by": "admin",
+   "family_name": "Davis Family",
+   "is_display_name": true,
+   "jsonmodel_type": "name_family",
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "sort_name": "Davis Family",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-15T20:14:42Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-15T20:14:42Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "78ebdf2b27722090bf027e8abd8852b8",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "IHLC Archon Instance::Creator Record ID 947",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "Davis Family",
+ "uri": "/agents/families/1",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/5"
+ ],
+ "used_within_repositories": [
+  "/repositories/5"
+ ],
+ "user_mtime": "2026-09-15T20:14:42Z"
+}

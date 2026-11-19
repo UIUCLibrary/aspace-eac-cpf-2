@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+# For running the specs outside ArchivesSpace:
+#   BUNDLE_GEMFILE=spec/Gemfile bundle exec rspec
+#
+# Kept out of the plugin root on purpose: ArchivesSpace merges a plugin's root
+# Gemfile into its own bundle. ArchivesSpace itself provides
+# Nokogiri to the plugin at runtime.
+source 'https://rubygems.org'
+
+gem 'nokogiri', '>= 1.13'
+gem 'rspec', '~> 3.13'

@@ -1,0 +1,378 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_corporate_entity",
+ "create_time": "2026-09-16T15:10:42Z",
+ "created_by": "admin",
+ "dates_of_existence": [],
+ "display_name": {
+  "authorized": true,
+  "conference_meeting": false,
+  "create_time": "2026-09-16T15:15:48Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_corporate_entity",
+  "jurisdiction": false,
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "primary_name": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+  "sort_name": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:15:48Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:15:48Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_corporate_entity",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 58,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "conference_meeting": false,
+   "create_time": "2026-09-16T15:15:48Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_corporate_entity",
+   "jurisdiction": false,
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "primary_name": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+   "sort_name": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:15:48Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:15:48Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Historical Note",
+   "persistent_id": "5d3596702ed46da4269f086b5b67471e",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "On June 15, 1966 the Board of Trustees established the Office of Chancellor for the Champaign-Urbana campus.<emph render='super'>1 </emph>The Chancellor is appointed by the Board of Trustees following nomination by the President. The Chancellor performs those duties that are assigned to him by the President and that are consistent with the Statutes of the University and the actions of the Board of Trustees. The Chancellor is assisted by vice-chancellors for academic affairs, administrative affairs, campus affairs, and research.\n\tUniversity of Illinois at Urbana-Champaign Chancellors:\n\tJack Peltason, September 1, 1967- August 20, 1977\n\tMorton W. Weir (acting), August 2-December 31, 1977\n\tWilliam P. Gerberding, January. 1, 1978-June 30, 1979\n\tJohn E. Cribbet (acting), July 1-December 11, 1979\n\tJohn E. Cribbet, December 12, 1979-August 20, 1984\n\tThomas E. Everhart, August 21, 1984-August 20, 1987\n\tMorton W. Weir (acting), August 21, 1987-April 13, 1988\n\tMorton W. Weir, April 14, 1988-June 30, 1993\n\tMichael Aiken, July 1, 1993-August 20, 2001\n\tNancy Cantor, August 21, 2001-July, 2004\n\tRichard Herman (acting), July, 2004-October 26, 2009\n\tRobert Easter (acting), November 12, 2009-\n\tThe Office of Vice-Chancellor for Academic Affairs, established April 19, 1967, is aided by an Associate Vice-Chancellor and Director of the Office of Planning and Evaluation.<emph render='super'>2</emph>\n\tResponsible to the Vice-Chancellor for Campus Affairs, effective October 1, 1972, are the divisions of housing, parking and transportation, telecommunications, the Illini Union, and the Assembly Hall. <emph render='super'>3</emph>\n\tOn October 1, 1972, the Division of Operations and Maintenance came under the authority of the Vice-Chancellor for Administrative Affairs.\n\tThe Office of Vice-Chancellor for Research and Dean of the Graduate College grew out of the Office of Associate Vice-Chancellor for Research and Development, formerly under the Vice-Chancellor for Academic Affairs.<emph render='super'>4</emph>\n\t1.\u00c3??\u00c3?\u00c2\u00a0 Board of Trustees Transactions, 53rd Report, June 15, 1966, p. 1193.\n\t2.\u00c3??\u00c3?\u00c2\u00a0 Board of Trustees Transactions, 54th Report, April 19, 1967, p. 481.\n\t3.\u00c3??\u00c3?\u00c2\u00a0 Board of Trustees Transactions, 55th Report, October 15, 1969, p. 665.\n\t4.\u00c3??\u00c3?\u00c2\u00a0 Office of the Chancellor. Campus Report 6, no. 1 (October, 1972): 1.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "036e32a8c18dca589087b8e130bdde89",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 25",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of Printing Services"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of Printing Services",
+    "uri": "/agents/corporate_entities/1337"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1337",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Peltason, Jack W."
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Peltason, Jack W.",
+    "uri": "/agents/people/4599"
+   },
+   "create_time": "2026-09-16 15:19:25 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/4599",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:19:25 UTC",
+   "user_mtime": "2026-09-16 15:19:25 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Center for Democracy in a Multiracial Society"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Center for Democracy in a Multiracial Society",
+    "uri": "/agents/corporate_entities/1582"
+   },
+   "create_time": "2026-09-16 15:16:10 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1582",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:16:10 UTC",
+   "user_mtime": "2026-09-16 15:16:10 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Vice Chancellor for Public Information"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Vice Chancellor for Public Information",
+    "uri": "/agents/corporate_entities/1984"
+   },
+   "create_time": "2026-09-16 15:18:16 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1984",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:18:16 UTC",
+   "user_mtime": "2026-09-16 15:18:16 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Administrative Services Office"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "Administrative Services Office",
+    "uri": "/agents/corporate_entities/1338"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1338",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Arms Control, Disarmament and International Security"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Arms Control, Disarmament and International Security",
+    "uri": "/agents/corporate_entities/1341"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1341",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Administrative Information Technology Services Office"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "Administrative Information Technology Services Office",
+    "uri": "/agents/corporate_entities/1342"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1342",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of Equal Opportunity and Affirmative Action"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of Equal Opportunity and Affirmative Action",
+    "uri": "/agents/corporate_entities/1343"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1343",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of Facility Planning and Management"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of Facility Planning and Management",
+    "uri": "/agents/corporate_entities/1350"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1350",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. University Honors Program"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. University Honors Program",
+    "uri": "/agents/corporate_entities/1351"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1351",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of International Programs and Studies"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of International Programs and Studies",
+    "uri": "/agents/corporate_entities/1352"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1352",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Association of Women in International Development"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Association of Women in International Development",
+    "uri": "/agents/corporate_entities/1515"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1515",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Division of Environmental Health and Safety"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Division of Environmental Health and Safety",
+    "uri": "/agents/corporate_entities/1345"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1345",
+   "relator": "is_superior_of",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign",
+    "uri": "/agents/corporate_entities/1634"
+   },
+   "create_time": "2026-09-16 15:15:48 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1634",
+   "relator": "is_subordinate_to",
+   "system_mtime": "2026-09-16 15:15:48 UTC",
+   "user_mtime": "2026-09-16 15:15:48 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-29T05:59:01Z",
+ "title": "University of Illinois at Urbana-Champaign. Office of the Chancellor",
+ "uri": "/agents/corporate_entities/1539",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/7"
+ ],
+ "used_within_repositories": [
+  "/repositories/7"
+ ],
+ "user_mtime": "2026-09-16T15:15:48Z"
+}

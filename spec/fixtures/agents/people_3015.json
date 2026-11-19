@@ -1,0 +1,160 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_genders": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_person",
+ "create_time": "2026-09-16T15:08:37Z",
+ "created_by": "admin",
+ "dates_of_existence": [
+  {
+   "create_time": "2026-09-18T21:48:19Z",
+   "date_label": "existence",
+   "date_type_structured": "range",
+   "jsonmodel_type": "structured_date_label",
+   "lock_version": 0,
+   "structured_date_range": {
+    "begin_date_expression": "1822",
+    "begin_date_standardized": "1822",
+    "begin_date_standardized_type": "standard",
+    "create_time": "2026-09-18T21:48:19Z",
+    "end_date_expression": "1898",
+    "end_date_standardized": "1898",
+    "end_date_standardized_type": "standard",
+    "jsonmodel_type": "structured_date_range",
+    "lock_version": 0,
+    "system_mtime": "2026-09-18T21:48:19Z",
+    "user_mtime": "2026-09-18T21:48:19Z"
+   },
+   "system_mtime": "2026-09-18T21:48:19Z",
+   "user_mtime": "2026-09-18T21:48:19Z"
+  }
+ ],
+ "display_name": {
+  "authorized": true,
+  "create_time": "2026-09-16T15:14:44Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_person",
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "name_order": "direct",
+  "parallel_names": [],
+  "primary_name": "Gregory, John Milton",
+  "sort_name": "Gregory, John Milton",
+  "sort_name_auto_generate": true,
+  "source": "lcnaf",
+  "system_mtime": "2026-09-16T15:14:44Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:14:44Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_person",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 5,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "create_time": "2026-09-16T15:14:44Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_person",
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "name_order": "direct",
+   "parallel_names": [],
+   "primary_name": "Gregory, John Milton",
+   "sort_name": "Gregory, John Milton",
+   "sort_name_auto_generate": true,
+   "source": "lcnaf",
+   "system_mtime": "2026-09-16T15:14:44Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:14:44Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "b3fea281b63b6dd74f0e9aae97c19f22",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 546",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Gregory, Louisa Allen"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Gregory, Louisa Allen",
+    "uri": "/agents/people/3013"
+   },
+   "create_time": "2026-09-16 15:14:44 UTC",
+   "created_by": "admin",
+   "description": "John Milton Gregory was the Husband of Louisa Allen Gregory.",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/3013",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:14:44 UTC",
+   "user_mtime": "2026-09-16 15:14:44 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Office of the University President"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Office of the University President",
+    "uri": "/agents/corporate_entities/1360"
+   },
+   "create_time": "2026-09-16 15:15:09 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1360",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:15:09 UTC",
+   "user_mtime": "2026-09-16 15:15:09 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "Gregory, John Milton",
+ "uri": "/agents/people/3015",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/7"
+ ],
+ "used_within_repositories": [
+  "/repositories/7"
+ ],
+ "user_mtime": "2026-09-16T15:14:44Z"
+}

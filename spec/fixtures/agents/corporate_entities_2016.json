@@ -1,0 +1,131 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_corporate_entity",
+ "create_time": "2026-09-16T15:12:25Z",
+ "created_by": "admin",
+ "dates_of_existence": [],
+ "display_name": {
+  "authorized": true,
+  "conference_meeting": false,
+  "create_time": "2026-09-16T15:19:16Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_corporate_entity",
+  "jurisdiction": false,
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "primary_name": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+  "sort_name": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:19:16Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:19:16Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_corporate_entity",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 5,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "conference_meeting": false,
+   "create_time": "2026-09-16T15:19:16Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_corporate_entity",
+   "jurisdiction": false,
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "primary_name": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+   "sort_name": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:19:16Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:19:16Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Historical Note",
+   "persistent_id": "3ff38c58f3307cd24ab56e997ebbec84",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "Approved by the Board of Trustees on June 17, 1970,<emph render='super'>1 </emph>and by the Illinois Board of Education on November 3, 1970, the Center was conceived to facilitate full utilization and exploitation of the potentials of the ILLIAC IV computer by acting as a liaison facility between computer technologists and experts in the physical, life, and social sciences. Construction of the ILLIAC IV was removed from this campus to California. The Center had access to computational resources including the ILLIAC IV via the Advanced Research Projects Agency Network. It promoted interdisciplinary and applied research by developing numerical techniques and provided the educational, software and hardware development necessary to research faculty using the Center and the ARPA Network.<emph render='super'>2 </emph>\n\tThe Center was abolished as an independent administrative unit on June 30, 1978. Ongoing programs were placed under the administration of the Office of the Vice Chancellor for Research.<emph render='super'>3</emph>\n\t1. Board of Trustees Transactions, 55th Report, June 17, 1970, p. 943.\n\t2. Graduate College Catalog, 1974-76, p. 12.\n\t3. Letter from George Russell, Dean of the Graduate College and Vice Chancellor for Research, to Morton W. Weir, Acting Chancellor, October 13, 1977; \"Statement to inform the Senate of termination of the Center for Advanced Computation as an administrative unit\" (undated, unsigned).\n\tThe Center for Advanced Computation will be terminated as an independent administrative unit effective June 30, 1978. This action does no affect the continuity of ongoing programs; no personnel layoffs are anticipated as a result.This action is based on experience in recent years which has shown the Center for Advanced Computation administrative structure to be ineffective in relating its research programs to other campus academic activities. This judgment is not a reflection on the quality of the individual programs of the center. Those programs are expected to continue under the auspices of the Office of the Vice Chancellor for Research.The Research Board and the Executive Committee of the Graduate College have been consulted on this question and both concur in this recommendation of the Acting Dean of the Graduate College.\n\tOct. 12, 197, Russell to Weir:\n\t\"Following our discussions concerning the future of the Center for Advanced Computation, I have discussed the matter with the Executive Committee of the Graduate College and the Research Board and asked for their vote on a plan to abolish the Center over the next year. Both of these Graduate College bodies voted unanimously to support such action. In accordance with the statutes I am, as Dean of the Graduate College, and with the support of the Executive Committee and the Research Board, recommending that you take whatever action is required to abolish the CAC as of June 30, 1978.\"",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "370a3640acde7112de5b78f1b84f57bf",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 131",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Department of Computer Science"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+    "uri": "/agents/corporate_entities/1874"
+   },
+   "create_time": "2026-09-16 15:19:16 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_earlierlater",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/1874",
+   "relator": "is_later_form_of",
+   "system_mtime": "2026-09-16 15:19:16 UTC",
+   "user_mtime": "2026-09-16 15:19:16 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+ "uri": "/agents/corporate_entities/2016",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/7"
+ ],
+ "used_within_repositories": [
+  "/repositories/7"
+ ],
+ "user_mtime": "2026-09-16T15:19:16Z"
+}

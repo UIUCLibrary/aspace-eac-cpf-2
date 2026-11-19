@@ -1,0 +1,187 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_genders": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_person",
+ "create_time": "2026-09-16T15:09:04Z",
+ "created_by": "admin",
+ "dates_of_existence": [
+  {
+   "create_time": "2026-09-18T21:48:19Z",
+   "date_label": "existence",
+   "date_type_structured": "range",
+   "jsonmodel_type": "structured_date_label",
+   "lock_version": 0,
+   "structured_date_range": {
+    "begin_date_expression": "1880",
+    "begin_date_standardized": "1880",
+    "begin_date_standardized_type": "standard",
+    "create_time": "2026-09-18T21:48:19Z",
+    "end_date_expression": "1962",
+    "end_date_standardized": "1962",
+    "end_date_standardized_type": "standard",
+    "jsonmodel_type": "structured_date_range",
+    "lock_version": 0,
+    "system_mtime": "2026-09-18T21:48:19Z",
+    "user_mtime": "2026-09-18T21:48:19Z"
+   },
+   "system_mtime": "2026-09-18T21:48:19Z",
+   "user_mtime": "2026-09-18T21:48:19Z"
+  }
+ ],
+ "display_name": {
+  "authorized": true,
+  "create_time": "2026-09-16T15:14:59Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_person",
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "name_order": "direct",
+  "parallel_names": [],
+  "primary_name": "McGrann, Frank ",
+  "sort_name": "McGrann, Frank ",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:14:59Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:14:59Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_person",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 3,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "create_time": "2026-09-16T15:14:59Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_person",
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "name_order": "direct",
+   "parallel_names": [],
+   "primary_name": "McGrann, Frank ",
+   "sort_name": "McGrann, Frank ",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:14:59Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:14:59Z"
+  },
+  {
+   "authorized": false,
+   "create_time": "2026-09-16T15:14:59Z",
+   "created_by": "admin",
+   "is_display_name": false,
+   "jsonmodel_type": "name_person",
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "name_order": "direct",
+   "parallel_names": [],
+   "primary_name": "Squire McGrann",
+   "sort_name": "Squire McGrann",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:14:59Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:14:59Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Biographical Note",
+   "persistent_id": "08d188f4b5514ef8db990a7d57f02b11",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "<emph render='bold'>Frank \"Squire\" McGrann (1880-1962)</emph> was born at Grand View Farm in Lancaster, Pennsylvania on November 13, 1880. The son of Bernard J. and Mary F. Dougherty McGrann, he graduated high school from Mercersburg Academy. As a boy, McGrann played the trombone. After graduating, McGrann played with Christ Burger's Military Band, which later became Burger's 4th Regiment Band at the Lancaster Elk's Lodge #134. At the age of 23, he joined the Conestoga National Bank of Lancaster, serving as its director for over 50 years. From 1918 to 1924 and from 1930 to 1948, he served as Mannheim Township's Justice of the Peace.\n\tThrough his connections with the bank and due to his interest in wind bands, McGrann sponsored many talented bands to visit Lancaster, including the John Philip Sousa Band, the Arthur Pryor Band, the Frederick Innes Band, the Herbert L. Clarke Band, and the Edwin Franko Goldman Band. Although an amateur conductor, he served as the director of the Conestoga Bank Brass Band, which only gave two performances in 1939 and 1940. Through his sponsorship of band concerts, he established close working relationships and friendships with many of the band directors above. He was a close confidant to Herbert L. Clarke, delivering a eulogy at Clarke's funeral. Due to his contributions to the band world, McGrann was elected as an associate member of the American Bandmasters Association in 1947.\n\tIn 1942, McGrann sold some of his land to the recording company, RCA, so they could construct a new factory in Lancaster. This RCA factory specialized in television vaccuum tube manufacturing and led to the creation of many new jobs in the city. With an avid interest in technology, McGrann installed both the first private telephone exchange in the state of Pennsylvania and a recording studio in his home, where he recorded his original arrangements for band and solo compositions for brass instruments. McGrann was married to Blanche E. Hebb McGrann (ca.1881-1961), with whom they had one son, John McGrann. Frank McGrann died in Lancaster, PA on January 15, 1962.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    },
+    {
+     "content": [
+      "Author: Nolan Vallier"
+     ],
+     "jsonmodel_type": "note_citation",
+     "persistent_id": "3d3f81449743311b9538c474911d19a1",
+     "publish": true
+    },
+    {
+     "content": [
+      "\"F. McGrann, Banker, Leader, Is Dead at 81: Justice of Peace, County Official, Musician's Friend,\" Lancaster New Era (Monday January 15, 1962): 1, 20.\n\t\"Conestoga Brass Band Gives Second Concert at Neffsville: Local Business Men and Youngsters Play with Famous Musicians in Program Arranged by Squire Frank McGrann.\" Lancaster New Era (Monday March 11, 1940): 11.\n\t\"Squire McGrann, Man of Many Pursuits, Soon Retires from One.\" Landcaster New Era (Tuesday August 5, 1947): 18."
+     ],
+     "jsonmodel_type": "note_citation",
+     "persistent_id": "e5afe17517f7abfd812a4916ae747a40",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "357b3fb6181e60b229645a7cf879b39b",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 3537",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "McGrann, John"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "McGrann, John",
+    "uri": "/agents/people/3188"
+   },
+   "create_time": "2026-09-16 15:14:59 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_parentchild",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/3188",
+   "relator": "is_parent_of",
+   "system_mtime": "2026-09-16 15:14:59 UTC",
+   "user_mtime": "2026-09-16 15:14:59 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "McGrann, Frank ",
+ "uri": "/agents/people/3189",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/8"
+ ],
+ "used_within_repositories": [
+  "/repositories/8"
+ ],
+ "user_mtime": "2026-09-16T15:14:59Z"
+}

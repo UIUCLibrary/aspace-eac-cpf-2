@@ -1,0 +1,226 @@
+{
+ "agent_alternate_sets": [],
+ "agent_contacts": [],
+ "agent_conventions_declarations": [],
+ "agent_functions": [],
+ "agent_identifiers": [],
+ "agent_maintenance_histories": [],
+ "agent_occupations": [],
+ "agent_other_agency_codes": [],
+ "agent_places": [],
+ "agent_record_controls": [],
+ "agent_record_identifiers": [],
+ "agent_resources": [],
+ "agent_sources": [],
+ "agent_topics": [],
+ "agent_type": "agent_corporate_entity",
+ "create_time": "2026-09-16T15:11:29Z",
+ "created_by": "admin",
+ "dates_of_existence": [],
+ "display_name": {
+  "authorized": true,
+  "conference_meeting": false,
+  "create_time": "2026-09-16T15:17:08Z",
+  "created_by": "admin",
+  "is_display_name": true,
+  "jsonmodel_type": "name_corporate_entity",
+  "jurisdiction": false,
+  "last_modified_by": "admin",
+  "lock_version": 0,
+  "parallel_names": [],
+  "primary_name": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+  "sort_name": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+  "sort_name_auto_generate": true,
+  "source": "local",
+  "system_mtime": "2026-09-16T15:17:08Z",
+  "use_dates": [],
+  "user_mtime": "2026-09-16T15:17:08Z"
+ },
+ "external_documents": [],
+ "is_linked_to_published_record": true,
+ "is_slug_auto": true,
+ "jsonmodel_type": "agent_corporate_entity",
+ "last_modified_by": "admin",
+ "linked_agent_roles": [
+  "creator"
+ ],
+ "lock_version": 32,
+ "metadata_rights_declarations": [],
+ "names": [
+  {
+   "authorized": true,
+   "conference_meeting": false,
+   "create_time": "2026-09-16T15:17:08Z",
+   "created_by": "admin",
+   "is_display_name": true,
+   "jsonmodel_type": "name_corporate_entity",
+   "jurisdiction": false,
+   "last_modified_by": "admin",
+   "lock_version": 0,
+   "parallel_names": [],
+   "primary_name": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+   "sort_name": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+   "sort_name_auto_generate": true,
+   "source": "local",
+   "system_mtime": "2026-09-16T15:17:08Z",
+   "use_dates": [],
+   "user_mtime": "2026-09-16T15:17:08Z"
+  }
+ ],
+ "notes": [
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Historical Note",
+   "persistent_id": "707ba2c38b90c34f5024c0fd6f777bea",
+   "publish": true,
+   "subnotes": [
+    {
+     "content": "On January 8, 1948, the Board of Trustees authorized the purchase of an EDVAC electronic digital computer for research program use.<emph render='super'>1 </emph>On November 19, 1948, the Board approved space for the computer project.<emph render='super'>2 </emph>On January 13, 1949, the Board reallocated funds to university staff for construction of the computer.<emph render='super'>3 </emph>By July 16, 1952, the Digital Computer Laboratory was listed in the university budget.<emph render='super'>4 </emph>In 1954, the laboratory offered \"instruction in courses and supervision of theses for individuals specializing in the design and use of the digital computing machinery.\"<emph render='super'>5 </emph>In 1964, the name was changed from the Digital Computer Laboratory to the Department of Computer Science.<emph render='super'>6</emph> The department teaches courses in circuit design, computer applications, computer organization, digital computer arithmetic, information retrieval, languages, numerical analysis, patters recognition, software systems, and switching an automata theory.<emph render='super'>7</emph>\n\t1. Board of Trustees Transactions, 44th Report, January 8, 1948, p. 954.\n\t2. Board of Trustees Transactions, 45th Report, November 19, 1948, p. 172.\n\t3. Board of Trustees Transactions, 45th Report, January 13, 1949, p. 204.\n\t4. Board of Trustees Transactions, 47th Report, July 16, 1952, p. 145.\n\t5. Graduate College Catalog, 1954-56, p. 29.\n\t6. Board of Trustees Transactions, 53rd Report, November 24, 1964, p. 240.\n\t7. Graduate Programs, 1972-1974, p. 59.",
+     "jsonmodel_type": "note_text",
+     "publish": true
+    }
+   ]
+  },
+  {
+   "jsonmodel_type": "note_bioghist",
+   "label": "Legacy Archon ID",
+   "persistent_id": "5633603c095e52294538312d790af6b1",
+   "publish": false,
+   "subnotes": [
+    {
+     "content": "UA Archon Instance::Creator Record ID 192",
+     "jsonmodel_type": "note_text",
+     "publish": false
+    }
+   ]
+  }
+ ],
+ "publish": true,
+ "related_agents": [
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Poppelbaum, W.J. (Wolfgang J.)"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Poppelbaum, W.J. (Wolfgang J.)",
+    "uri": "/agents/people/2694"
+   },
+   "create_time": "2026-09-16 15:17:08 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/2694",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:17:08 UTC",
+   "user_mtime": "2026-09-16 15:17:08 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Michael Faiman"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Michael Faiman",
+    "uri": "/agents/people/4328"
+   },
+   "create_time": "2026-09-16 15:18:16 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/4328",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:18:16 UTC",
+   "user_mtime": "2026-09-16 15:18:16 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. Center for Advanced Computation"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. Center for Advanced Computation",
+    "uri": "/agents/corporate_entities/2016"
+   },
+   "create_time": "2026-09-16 15:19:16 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_earlierlater",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/2016",
+   "relator": "is_earlier_form_of",
+   "system_mtime": "2026-09-16 15:19:16 UTC",
+   "user_mtime": "2026-09-16 15:19:16 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Robertson, James Evans,"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Robertson, James Evans,",
+    "uri": "/agents/people/2695"
+   },
+   "create_time": "2026-09-16 15:17:08 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/2695",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:17:08 UTC",
+   "user_mtime": "2026-09-16 15:17:08 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "Friedman, H. George"
+    },
+    "jsonmodel_type": "agent_person",
+    "publish": true,
+    "title": "Friedman, H. George",
+    "uri": "/agents/people/3938"
+   },
+   "create_time": "2026-09-16 15:17:08 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_associative",
+   "last_modified_by": "admin",
+   "ref": "/agents/people/3938",
+   "relator": "is_associative_with",
+   "system_mtime": "2026-09-16 15:17:08 UTC",
+   "user_mtime": "2026-09-16 15:17:08 UTC"
+  },
+  {
+   "_resolved": {
+    "display_name": {
+     "sort_name": "University of Illinois at Urbana-Champaign. College of Engineering"
+    },
+    "jsonmodel_type": "agent_corporate_entity",
+    "publish": true,
+    "title": "University of Illinois at Urbana-Champaign. College of Engineering",
+    "uri": "/agents/corporate_entities/2025"
+   },
+   "create_time": "2026-09-16 15:17:08 UTC",
+   "created_by": "admin",
+   "jsonmodel_type": "agent_relationship_subordinatesuperior",
+   "last_modified_by": "admin",
+   "ref": "/agents/corporate_entities/2025",
+   "relator": "is_subordinate_to",
+   "system_mtime": "2026-09-16 15:17:08 UTC",
+   "user_mtime": "2026-09-16 15:17:08 UTC"
+  }
+ ],
+ "system_mtime": "2026-09-18T21:50:29Z",
+ "title": "University of Illinois at Urbana-Champaign. Department of Computer Science",
+ "uri": "/agents/corporate_entities/1874",
+ "used_languages": [],
+ "used_within_published_repositories": [
+  "/repositories/7"
+ ],
+ "used_within_repositories": [
+  "/repositories/7"
+ ],
+ "user_mtime": "2026-09-16T15:17:08Z"
+}
