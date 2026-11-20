@@ -122,6 +122,34 @@ RSpec.describe EacCpf2::Serializer do
     end
   end
 
+  # UIUCLibrary/arclight#92: once personal names were split into primary name
+  # and rest of name, ArchivesSpace's export gave the related creator as the
+  # surname alone ("Gregory") and consumers joining parts got "Gregory John Milton",
+  # which matches nothing in the collections' creators facet.
+  describe 'names split into primary name and rest of name' do
+    let(:agent) do
+      fixture('people_3015').tap do |gregory|
+        gregory['names'].each do |name|
+          name.merge!('primary_name' => 'Gregory', 'rest_of_name' => 'John Milton',
+                      'sort_name' => 'John Milton Gregory (1822-1898)')
+        end
+        gregory['related_agents'].first['_resolved']['display_name']['sort_name'] = 'Louisa Allen Gregory (1856-)'
+      end
+    end
+    let(:doc) { export(agent) }
+
+    it 'keeps the parts and gives the exact ArchivesSpace heading the EAD uses' do
+      entry = doc.at_xpath('//eac:identity/eac:nameEntry', NS)
+
+      expect(entry.xpath('eac:part', NS).map { |p| [p['localType'], p.text] }).to eq [%w[surname Gregory], ['forename', 'John Milton']]
+      expect(entry['aspace:sortName']).to eq 'John Milton Gregory (1822-1898)'
+    end
+
+    it 'names a related person by their full heading, not their surname' do
+      expect(doc.at_xpath('//eac:targetEntity[@targetType="person"]/eac:part', NS).text).to eq 'Louisa Allen Gregory (1856-)'
+    end
+  end
+
   describe 'linked records' do
     it 'carries the EAD ID of a linked collection so consumers need not look it up' do
       records = [{ 'uri' => '/repositories/7/resources/5246', 'title' => 'Mailing Services Publications',
