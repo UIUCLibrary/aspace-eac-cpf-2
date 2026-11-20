@@ -35,7 +35,7 @@ module EacCpf2
     def to_xml
       agent = @model.get_or_die(@id)
       json = @model.to_jsonmodel(agent).to_hash(:trusted)
-      raise NotFoundException, 'Agent not found' unless Publication.published?(json)
+      raise NotFoundException, 'Agent not published' unless Publication.published?(json)
 
       json = URIResolver.resolve_references(json, %w[subjects places])
       json['related_agents'] = resolve_related_agents(Array(json['related_agents']))

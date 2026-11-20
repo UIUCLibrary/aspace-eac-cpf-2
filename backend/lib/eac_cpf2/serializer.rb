@@ -93,8 +93,12 @@ module EacCpf2
       @label = label
     end
 
+    # Not pretty-printed: JRuby's Nokogiri (which ArchivesSpace runs) indents
+    # inside mixed content, adding whitespace to note text around <span> and
+    # <reference>.
     def to_xml
-      Nokogiri::XML::Builder.new(encoding: 'UTF-8') { |xml| root(xml) }.to_xml
+      Nokogiri::XML::Builder.new(encoding: 'UTF-8') { |xml| root(xml) }
+                            .to_xml(save_with: Nokogiri::XML::Node::SaveOptions::AS_XML)
     end
 
     private
@@ -651,7 +655,7 @@ module EacCpf2
         attrs['aspace:eadId'] = record['ead_id'] if present?(record['ead_id'])
         attrs['aspace:refId'] = record['ref_id'] if present?(record['ref_id'])
         attrs['aspace:resourceUri'] = record['resource_uri'] if present?(record['resource_uri'])
-        xml.targetEntity(attrs) { xml.part(present(record['title']) || record['uri']) }
+        xml.targetEntity(attrs) { xml.part(plain_text(record['title']) || record['uri']) }
         relation_type(xml, term, record['role'])
         if present?(record['relator'])
           xml.relationType(@label.call('linked_agent_archival_record_relators', record['relator']),
@@ -665,7 +669,7 @@ module EacCpf2
       xml.relation do
         attrs = { 'targetType' => 'resource' }
         attrs['valueURI'] = res['file_uri'] if uri?(res['file_uri'])
-        xml.targetEntity(attrs) { xml.part res['linked_resource'] }
+        xml.targetEntity(attrs) { xml.part(plain_text(res['linked_resource'])) }
         dates_element(xml, Array(res['dates']).first(1))
         Array(res['places']).filter_map { |ref| first_term(ref['_resolved']) }.each do |place|
           xml.place { xml.placeName place }
@@ -759,6 +763,12 @@ module EacCpf2
 
     def display_name(agent_json)
       present(agent_json.dig('display_name', 'sort_name')) || present(agent_json['title']) || agent_json['uri']
+    end
+
+    # Record titles may carry EAD markup (<emph render="italic">); <part> holds
+    # text only, so the markup is reduced to its text.
+    def plain_text(value)
+      present(InlineMarkup.paragraphs(value.to_s).map { |para| InlineMarkup.flatten(para) }.join(' '))
     end
 
     def note_texts(notes)

@@ -13,11 +13,13 @@ module EacCpf2
   #   <span localType="{element}" style="{CSS}">, translating EAD's @render
   #   into the CSS the EAC-CPF tag library recommends for @style (quotation
   #   renders become quotation marks);
-  # * elements with an href become <reference href="...">;
+  # * elements with an href become <reference href="...">, except in-note
+  #   fragment links (href="#ftn1"), which keep only their text;
   # * HTML formatting (<i>, <em>, <b>, <strong>, <u>, <sup>, <sub>), which
   #   ArchivesSpace also accepts, becomes a <span> with the equivalent CSS;
   # * <lb/> and <br/> become line breaks;
-  # * <p> elements and blank lines separate paragraphs, and each <li> of a
+  # * <p> elements, blank lines and Archon's newline-tab separate paragraphs,
+  #   and each <li> of a
   #   list becomes a bulleted paragraph (EAC-CPF paragraphs cannot hold lists);
   # * anything else contributes its text.
   #
@@ -65,7 +67,13 @@ module EacCpf2
       Array(content).flat_map { |text| paragraphs_of(text.to_s) }
     end
 
+    # A newline followed by a tab is how Archon separated paragraphs.
+    # ArchivesSpace's EAD exporter (handle_linebreaks) treats it as a blank
+    # line, and so does this, so creator notes split where collection notes do.
+    ARCHON_PARAGRAPH_BREAK = "\n\t"
+
     def paragraphs_of(text)
+      text = text.gsub(ARCHON_PARAGRAPH_BREAK, "\n\n")
       return [] if text.strip.empty?
       return plain_paragraphs(text) unless text.include?('<')
 
@@ -141,7 +149,9 @@ module EacCpf2
 
       href = node['href'] || node.attribute_with_ns('href', 'http://www.w3.org/1999/xlink')&.value
       children = convert_children(node)
-      if href && !href.strip.empty?
+      # A bare fragment (#ftn1) points at an anchor in the original note,
+      # which does not survive, so only the text is kept.
+      if href && !href.strip.empty? && !href.strip.start_with?('#')
         children = [Text.new(href)] if children.empty?
         return [Reference.new(href.strip, children)]
       end

@@ -37,8 +37,21 @@ RSpec.describe EacCpf2::InlineMarkup do
     ]
   end
 
+  it 'keeps only the text of links to anchors inside the note' do
+    expect(render('Founded 1941.<a href="#ftn1"><sup>1</sup></a>')).to eq [
+      '<p>Founded 1941.<span localType="sup" style="vertical-align: super">1</span></p>'
+    ]
+  end
+
   it 'starts a new paragraph at blank lines and at <p> elements' do
     expect(render("One.\n\nTwo.<p>Three.</p>")).to eq ['<p>One.</p>', '<p>Two.</p>', '<p>Three.</p>']
+  end
+
+  # As ArchivesSpace's EAD exporter does (handle_linebreaks, "4archon")
+  it 'treats a newline followed by a tab, which Archon used between paragraphs, as a paragraph break' do
+    expect(render("Theory.<emph render='super'>7</emph>\n\t1. Board report.\n\t2. Catalog.")).to eq [
+      '<p>Theory.<span localType="emph" style="vertical-align: super">7</span></p>', '<p>1. Board report.</p>', '<p>2. Catalog.</p>'
+    ]
   end
 
   it 'parses markup alongside bare ampersands and HTML entities' do

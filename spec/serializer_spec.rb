@@ -97,6 +97,14 @@ RSpec.describe EacCpf2::Serializer do
     end
   end
 
+  it 'adds no whitespace around markup inside paragraphs' do
+    xml = export(RichAgent.agent).to_xml(save_with: Nokogiri::XML::Node::SaveOptions::AS_XML)
+    raw = EacCpf2::Serializer.new(agent: EacCpf2::Publication.filter_agent(RichAgent.agent)).to_xml
+
+    expect(raw).to include('Born in <span localType="emph" style="font-style: italic">Urbana</span> &amp; raised')
+    expect(xml).to include('Born in <span')
+  end
+
   describe 'names' do
     it 'carries the exact ArchivesSpace heading alongside the name parts' do
       entry = export(fixture('corporate_entities_1539')).at_xpath('//eac:identity/eac:nameEntry', NS)
@@ -125,6 +133,14 @@ RSpec.describe EacCpf2::Serializer do
       expect(target['aspace:eadId']).to eq 'UA.24.1.3'
       expect(target.at_xpath('../eac:relationType', NS)['localType']).to eq 'creator'
     end
+  end
+
+  it 'reduces markup in linked record titles to text' do
+    records = [{ 'uri' => '/repositories/2/resources/9', 'title' => '<emph render="italic">ALSC Newsletter</emph> & Notes',
+                 'jsonmodel_type' => 'resource', 'role' => 'creator' }]
+    part = export(fixture('people_16'), records: records).at_xpath('//eac:targetEntity[@targetType="resource"]/eac:part', NS)
+
+    expect(part.text).to eq 'ALSC Newsletter & Notes'
   end
 
   describe 'control' do
